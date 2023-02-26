@@ -1,1 +1,1 @@
-# rabbitMQ
+# Projeto criado para testes com rabbitMQ utilizando spring boot.
