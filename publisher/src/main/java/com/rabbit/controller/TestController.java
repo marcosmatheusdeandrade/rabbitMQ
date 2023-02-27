@@ -1,7 +1,7 @@
 package com.rabbit.controller;
 
-import com.rabbit.enums.Queue;
 import com.rabbit.dto.TestDTO;
+import com.rabbit.enums.Queue;
 import com.rabbit.service.RabbitMqService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
 package com.rabbit.service;
 
-import com.rabbit.enums.Queue;
 import com.rabbit.dto.TestDTO;
+import com.rabbit.enums.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

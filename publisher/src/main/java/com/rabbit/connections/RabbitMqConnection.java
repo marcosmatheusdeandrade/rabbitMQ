@@ -24,7 +24,7 @@ public class RabbitMqConnection {
         return new org.springframework.amqp.core.Queue(name, true, false, false);
     }
 
-    private DirectExchange trocaDireta() {
+    private DirectExchange directExchange() {
         return new DirectExchange(EXCHANGE);
     }
 
@@ -36,7 +36,7 @@ public class RabbitMqConnection {
     private void fill() {
         org.springframework.amqp.core.Queue queue = queue(Queue.TEST.getName());
 
-        DirectExchange directExchange = trocaDireta();
+        DirectExchange directExchange = directExchange();
 
         Binding binding = relationship(queue, directExchange);
 
